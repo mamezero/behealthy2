@@ -25,8 +25,7 @@ iconClose.addEventListener('click', ()=> {
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     // Get the login button and the close button
-    const loginButton = document.querySelector(".btnLogin-popup");
-    const closeButton = document.querySelector(".icon-close");
+    
   
     // Get the login form and the wrapper
     const loginForm = document.querySelector(".form-box.Login");
